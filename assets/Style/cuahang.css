@@ -1,0 +1,36 @@
+.contain{
+    width: 100%;
+  } 
+  
+  
+  .contain_box-title{
+       font-weight: 800;
+       color: red;
+       font-size: 18px;
+       align-items: center;
+  }
+  
+  .contain_box-adress{
+    font-weight: 600;
+  }
+  
+  .contain_box-adress-home{
+    font-weight: 400;
+    display: inline-block;
+  }
+  
+  .contain_box-phone{
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  .contain_box-phone-number{
+    font-weight: 400;
+    display: inline-block;
+  }
+  
+  .contain_box-time{
+   font-weight: 300;
+  text-align: center;
+  }
+  

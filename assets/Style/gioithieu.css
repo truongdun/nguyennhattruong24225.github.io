@@ -1,0 +1,30 @@
+.haeding{
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+} 
+.haeding::after{
+content: "";
+position: absolute;
+width: 100px;
+height: 5px;
+background-color: red;
+top: 45px;
+left: 47%;
+}
+  /*CSS phần tin tức*/
+.tintuc .product-item{
+    width: 30%;
+    margin: 20px 20px;
+    display: inline-block;
+  }
+  .tintuc .product-item img{
+  max-width: 100%;
+  }
+  .tintuc .product-item h4:hover{
+    color: red;
+    font-weight: bold;
+    transition: all .5s linear;
+  }

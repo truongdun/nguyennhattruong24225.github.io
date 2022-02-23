@@ -1,0 +1,48 @@
+/* trang chủ */ 
+------------------
+.product{
+    max-width: 100%;
+    color: #f27a00;
+    font-size: 20px;
+  }
+
+.product .haeding{
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  margin: 20px 0; 
+}
+
+.product .product-contain-items {
+    display: inline-block;
+    text-align: center;
+    border: 1px;
+  }
+
+.banner{
+    width: 98%;
+    margin-top: 10px;
+}
+
+.banner img{
+    max-width: 100%;
+    border-radius: 30px;
+    margin: 20px;
+}
+  
+.haeding{
+    font-size: 30px;
+    color: rgb(84, 44, 148);
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+} 
+.haeding::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(84, 44, 148);
+  top: 45px;
+  left: 47%;
+}  
